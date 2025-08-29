@@ -1,0 +1,58 @@
+*,  ::after,  ::before  {
+    box-sizing:  border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+    margin-top: 0;
+}
+img,
+svg {
+    vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4 {
+    margin-bottom: 0.5rem;
+    font-weight: initial;
+}
+
+p {
+    margin-bottom: 15px;
+}
+img {
+    border-style: none;
+    max-width: 100%;
+}
+svg {
+    overflow: hidden;
+}
+
+
+._container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+section {
+    display: block;
+}
+
+._container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1230px;
+}
+
+._row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
